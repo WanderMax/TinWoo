@@ -38,7 +38,8 @@
     "net": {
       "help": {
         "title": "帮助",
-        "desc": "可以使用下列工具远程安装文件，例如在 Tinfoil 模式下使用 NS-USBloader。\n如想向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机即可！\n如果您使用的工具软件不支持选择特定文件类型，请尝试更改文件扩展名。\nAwoo Installer 在通过网络安装不限制文件扩展名！\n\n如果以上无效，请复制文件到 SD 卡并在主菜单中选择\"通过 SD 卡安装\"！"
+        "desc": "可以使用下列工具远程安装文件，例如在 Tinfoil 模式下使用 NS-USBloader。\n如想向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机即可！\n如果您使用的工具软件不支持选择特定文件类型，请尝试更改文件扩展名。\nTinWoo Installer 在通过网络安装不限制文件扩展名！\n\n如果以上无效，请复制文件到 SD 卡并在主菜单中选择\"通过 SD 卡安装\"！"
+        "blank": "服务器地址为空。请输入正确的地址。\n\n例如：http://192.168.0.51"
       },
       "src": {
         "title": "请选择安装来源？",
@@ -48,10 +49,10 @@
       "url": {
         "hint": "输入文件链接地址 (URL)",
         "invalid": "链接地址 (URL) 无效！",
-        "nolinks": "No XCI, XCZ, NSP, NSZ links found!\nDid you use the correct URL?",
+        "nolinks": "未发现 XCI、XCZ、NSP、NSZ 链接！\n链接是否正确？",
         "source_string": " 通过网络链接 (URL)"
-        "listwait": "Populating the list from a url can take some time.\nThe list default limit is purposely set to ",
-        "listwait2": " items.\nPress OK to load the list."
+        "listwait": "从网络缓冲列表需要一定时间。\n列表数目被限制为 ",
+        "listwait2": " 条。\n按下 OK 键以加载列表。"
       },
       "gdrive": {
         "hint": "输入 Google 网盘公共文件 ID",
@@ -61,7 +62,7 @@
       "sd": "SD 卡剩余空间：",
       "nand": "内部存储剩余空间：",
       "index_error": "未发现游戏！",
-      "index_error_info": "Did you enter the correct HTTP server source URL in the config page?",
+      "index_error_info": "配置页 HTTP 服务器源链接 是否正确？",
       "top_info": "在服务器中选择将要安装的文件，然后按 \ue0ef 以安装！",
       "top_info1": "正在等待连接… Switch 的 IP 地址是：",
       "failed": "远程安装失败！",
@@ -85,13 +86,13 @@
     "hd": {
       "help": {
         "title": "帮助",
-        "desc": "Copy your NSP, NSZ, XCI, or XCZ files to your hard drive, browse to and\nselect the ones you want to install, then press the \ue0ef button."
+        "desc": "复制NSP、NSZ、XCI或XCZ 文件到硬盘，\n浏览并选择待安装文件， 按下 \ue0ef 键以安装。"
       },
-      "top_info": "Select the files you want to install, then press the \ue0ef button!",
+      "top_info": "选择待安装文件，按下 \ue0ef 键以安装！",
       "source_string": " 通过硬盘",
-      "delete_info": " installed.\nDelete it from the hard drive?",
-      "delete_info_multi": " files installed successfully!\nDelete them from the hard drive?",
-      "delete_desc": "The original files aren't needed anymore after they've been installed",
+      "delete_info": " 已安装。\n是否从硬盘删除原始文件？",
+      "delete_info_multi": " 文件安装成功！\n是否从硬盘删除原始文件？",
+      "delete_desc": "原始文件在安装后可删除",
       "buttons": "\ue0e0 选择    \ue0e3 全选    \ue0ef 安装    \ue0e2 帮助    \ue0e1 取消"
     },
     "usb": {
@@ -131,7 +132,7 @@
       "desc": "请确认签名不正确的文件来源可靠。\n包含整合 XCI 和 DLC 解锁器的文件将始终显示此警告。\n您可以在 TinWoo Installer 设置中禁用此验证。\n\n是否继续安装？",
       "opt1": "是的，我已明白其中风险",
       "error": "请求的 NCA 没有正确签名："
-      "ticket_missing": "No ticket has been found.\n\nIf the game doesn't start after installation, try dumping it again with a valid ticket."
+      "ticket_missing": "未发现门票。\n\n如果游戏启动失败，请使用有效门票重新导出。"
     },
     "finished": [
       "享受您的“合法版本”吧！",
@@ -173,10 +174,10 @@
       "boost_mode": "安装时启用\"增强模式\"",
       "ask_delete": "安装后询问文件删除",
       "auto_update": "自动检查 TinWoo Installer 更新",
-      "useSound": "Use sound notifications during installs",
-      "fixticket": "Convert temporary tickets to permanent",
-      "listoveride": "Disable URL list warning and file limit",
-      "usehttpkeyboard": "Use keyboard during http server installs",
+      "useSound": "安装时启用通知铃声",
+      "fixticket": "转换临时门票为永久",
+      "listoveride": "禁用网络列表警告和文件限制",
+      "usehttpkeyboard": "在网络安装时使用键盘",
       "sig_url": "签名补丁源链接 (URL)：",
       "http_url": "网络服务器连接 (URL)：",
       "language": "语言：",
@@ -224,30 +225,30 @@
     "cancel_desc": "按 B 取消"
   },
   "theme": {
-    "title": "Use Theme",
-    "desc": "Themes will activate or deactivate when Tinwoo restarts.",
-    "hint_theme": "Enter a valid address to download a theme",
-    "no_themes": "No themes found!\nDid you use the correct URL?",
-    "theme_error": "No themes found!",
-    "theme_error_info": "Did you enter the correct theme server source URL in the config page?",
-    "theme_top_info": "Select which theme you want to install, then press the \ue0ef button!",
-    "buttons2": "\ue0e0 Select File    \ue0ef Install File    \ue0e1 Cancel",
-    "please_wait": "Please wait, I'm trying to connect to the server!",
-    "theme_option": "Use Theme",
-    "theme_url": "Theme server source URL: ",
-    "theme_menu": "Download themes",
-    "theme_fail": "Did you enter a correct theme URL?",
-    "downloading": "Downloading theme: ",
-    "percent": " % complete",
-    "extracting": "Extracting theme, please wait!",
-    "complete": "Downloading complete, extracting theme, Please wait!",
-    "failed": "Downloading failed, try again?",
-    "extracted": "Theme Extracted, restart Tinwoo to see the changes",
-    "installed": "Theme installed",
-    "restart": "Restart Tinwoo to see the changes",
-    "retry": "Theme Extraction failed, try again?",
-    "wait": "Please Wait!",
-    "trying": "I'm currently tryng to install a theme"
+    "title": "启用主题",
+    "desc": "主题将在 Tinwoo 重启后启用/禁用。",
+    "hint_theme": "输入有效地址以下载主题",
+    "no_themes": "未找到主题！\n是否地址正确？",
+    "theme_error": "未找到主题！",
+    "theme_error_info": "配置页主题网络地址是否正确？",
+    "theme_top_info": "选择主题喜爱的主题，按下 \ue0ef 键以安装！",
+    "buttons2": "\ue0e0 选择    \ue0ef 安装    \ue0e1 取消",
+    "please_wait": "请稍后，当前正在连接到服务器！",
+    "theme_option": "启用主题",
+    "theme_url": "主题源服务器地址：",
+    "theme_menu": "下载主题",
+    "theme_fail": "主题地址是否正确？",
+    "downloading": "正在下载主题：",
+    "percent": " % 已完成",
+    "extracting": "正在解压主题，请稍后！",
+    "complete": "下载完成，正在解压，请稍后！",
+    "failed": "主题下载失败，请重试？",
+    "extracted": "主题已解压，重启 Tinwoo 以应用变更",
+    "installed": "主题已安装",
+    "restart": "重启 Tinwoo 以应用变更",
+    "retry": "主题解压失败，请重试？",
+    "wait": "请稍后！",
+    "trying": "当前正在安装主题"
   },
   "usage": {
     "system_size": "系统空间总大小：",
