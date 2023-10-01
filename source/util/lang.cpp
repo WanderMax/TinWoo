@@ -51,6 +51,9 @@ namespace Language {
 			case 8:
 				languagePath = "romfs:/lang/tw.json";
 				break;
+			case 9:
+				languagePath = "romfs:/lang/zh-CN.json";
+				break;
 			case 0:
 				switch (syslang) {
 				case 0: //Japanese
@@ -99,7 +102,7 @@ namespace Language {
 					languagePath = "romfs:/lang/es.json";
 					break;
 				case 15: //SimplifiedChinese
-					languagePath = "romfs:/lang/tw.json";
+					languagePath = "romfs:/lang/zh-CN.json";
 					break;
 				case 16: //TraditionalChinese
 					languagePath = "romfs:/lang/tw.json";
