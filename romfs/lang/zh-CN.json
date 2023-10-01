@@ -32,7 +32,7 @@
       "title": "不支持 Applet 模式",
       "desc": "在 Applet 模式下使用 TinWoo Installer 可能会遇到问题，\n如果遇到问题，请切换 TinWoo Installer 的运行模式！\n(退回主界面，按住 \ue0e5 并打开任意游戏，进入 hbmenu 后再打开 TinWoo Installer 即可)"
     },
-    "buttons": "\ue0e0 选择  \ue0e1 退出"
+    "buttons": "\ue0e0 选择    \ue0e3 剩余空间    \ue0e4+\ue0e5 或 \ue0ef 或 \ue0f0 退出"
   },
   "inst": {
     "net": {
@@ -124,7 +124,7 @@
       "desc0": " 个文件安装成功！",
       "desc1": " 安装完成！",
       "downloading": "正在下载 ",
-      "queue": "队列文件: ",
+      "queue": "队列文件：",
       "at": " 以 "
     },
     "nca_verify": {
