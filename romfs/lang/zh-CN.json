@@ -175,6 +175,7 @@
       "ask_delete": "安装后询问文件删除",
       "auto_update": "自动检查 TinWoo Installer 更新",
       "useSound": "安装时启用通知铃声",
+      "useMusic": "Tinwoo 启动时自动播放音乐",
       "fixticket": "转换临时门票为永久",
       "listoveride": "禁用网络列表警告和文件限制",
       "usehttpkeyboard": "在网络安装时使用键盘",
